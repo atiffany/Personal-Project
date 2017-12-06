@@ -1,0 +1,31 @@
+.Section {
+  box-sizing: border-box;
+  width: 50%;
+  height: 60%;
+  padding-top: 100px;
+}
+
+.Section--left {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Section--right {
+  float: right;
+}
+
+.Section__title {
+  padding: 100px 0 10px 0;
+  font-size: 24px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.Section__text {
+  font-size: 18px;
+  width: 50%;
+  margin: 0 auto;
+}
+
